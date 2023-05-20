@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+.top {
+  color: rgb(232, 110, 3);
+  box-shadow: 0px 2px;
+  text-align: center;
+  letter-spacing: 4px;
+}
+.calculator {
+  border: 1px solid#717377;
+  padding: 20px;
+  border-radius: 16px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(120, 129, 148, 0.5);
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+input {
+  width: 240px;
+  border: none;
+  color: white;
+  padding: 24px;
+  margin: 10px;
+  background: transparent;
+  box-shadow: 0px 3px white;
+  font-size: 30px;
+  text-align: right;
+  cursor: pointer;
+}
+button {
+  border: 2px solid rgba(255, 255, 255, 0.457);
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+button:hover {
+  background-color: #383f47;
+  background: linear-gradient(45deg, #e08937, #717377);
+}
+.eql-btn {
+  background-color: rgb(232, 110, 3);
+  box-shadow: -2px -3px 8px rgb(237, 154, 82);
+}
+.clear-btn {
+  width: 30vh;
+  letter-spacing: 4px;
+  border: 2px solid rgb(232, 110, 3);
+  border-radius: 10px;
+  box-shadow: 2px 3px 8px rgb(237, 154, 82);
+}
+.gray-btn {
+  background-color: #4e5c6f;
+}
